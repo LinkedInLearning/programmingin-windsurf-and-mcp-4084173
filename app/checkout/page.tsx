@@ -1,3 +1,11 @@
+const withSalesTax = (price: number) => {
+  return price * 1.05;
+}
+
+const salesTax = () => {
+  return withSalesTax(89.99) - 89.99;
+}
+
 export default function CheckoutPage() {
   return (
     <div className="container mx-auto p-4">
