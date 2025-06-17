@@ -1,6 +1,11 @@
 import Link from 'next/link';
 
+import { products } from './data/products';
+
 export default function Home() {
+  // Get first 3 products as featured
+  const featuredProducts = products.slice(0, 3);
+
   return (
     <div className="container mx-auto p-6 max-w-6xl">
       <header className="mb-12 text-center">
@@ -11,21 +16,13 @@ export default function Home() {
       <div className="mt-12">
         <h2 className="text-4xl font-semibold mb-8 text-center border-b-2 border-accent pb-2 inline-block mx-auto">Featured Products</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-          <div className="bg-white/50 backdrop-blur-sm p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border border-secondary/20">
-            <h3 className="text-2xl font-medium text-primary mb-2">Professional Chef Knife</h3>
-            <p className="text-text-light mb-4">Precision-crafted for professional chefs</p>
-            <p className="text-2xl font-bold text-primary">$89.99</p>
-          </div>
-          <div className="bg-white/50 backdrop-blur-sm p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border border-secondary/20">
-            <h3 className="text-2xl font-medium text-primary mb-2">Bamboo Cutting Board</h3>
-            <p className="text-text-light mb-4">Eco-friendly and durable</p>
-            <p className="text-2xl font-bold text-primary">$29.99</p>
-          </div>
-          <div className="bg-white/50 backdrop-blur-sm p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border border-secondary/20">
-            <h3 className="text-2xl font-medium text-primary mb-2">Stainless Steel Mixing Bowls</h3>
-            <p className="text-text-light mb-4">Set of 3 non-slip bowls</p>
-            <p className="text-2xl font-bold text-primary">$39.99</p>
-          </div>
+          {featuredProducts.map((product) => (
+            <div key={product.id} className="bg-white/50 backdrop-blur-sm p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border border-secondary/20">
+              <h3 className="text-2xl font-medium text-primary mb-2">{product.name}</h3>
+              <p className="text-text-light mb-4">{product.description}</p>
+              <p className="text-2xl font-bold text-primary">${product.price.toFixed(2)}</p>
+            </div>
+          ))}
         </div>
       </div>
       
