@@ -8,18 +8,18 @@ export default function Home() {
       <div className="mt-6">
         <h2 className="text-xl font-semibold mb-2">Featured Products</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="border p-4 rounded">
-            <h3 className="text-lg font-medium">Professional Chef Knife</h3>
+          <div className="border p-4">
+            <h3 className="text-lg font-medium rounded">Professional Chef Knife</h3>
             <p className="text-gray-600">Precision-crafted for professional chefs</p>
             <p className="mt-2 font-bold">$89.99</p>
           </div>
-          <div className="border p-4 rounded">
-            <h3 className="text-lg font-medium">Bamboo Cutting Board</h3>
+          <div className="border p-4">
+            <h3 className="text-lg font-medium rounded">Bamboo Cutting Board</h3>
             <p className="text-gray-600">Eco-friendly and durable</p>
             <p className="mt-2 font-bold">$29.99</p>
           </div>
-          <div className="border p-4 rounded">
-            <h3 className="text-lg font-medium">Stainless Steel Mixing Bowls</h3>
+          <div className="border p-4">
+            <h3 className="text-lg font-medium rounded">Stainless Steel Mixing Bowls</h3>
             <p className="text-gray-600">Set of 3 non-slip bowls</p>
             <p className="mt-2 font-bold">$39.99</p>
           </div>
