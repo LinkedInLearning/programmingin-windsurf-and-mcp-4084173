@@ -6,6 +6,7 @@ export interface Product {
 }
 
 export const products: Product[] = [
+  // Existing products
   {
     id: 1,
     name: 'Professional Chef Knife',
@@ -35,5 +36,25 @@ export const products: Product[] = [
     name: 'Measuring Cups Set',
     price: 19.95,
     description: 'Precise measurements for perfect recipes'
+  },
+  
+  // Kitchen supplies from Supabase
+  {
+    id: 6,
+    name: 'Spatula',
+    price: 10.00,
+    description: 'High heat resistant kitchen tool'
+  },
+  {
+    id: 7,
+    name: 'Paring Knife',
+    price: 5.25,
+    description: 'Perfect for peeling and slicing small fruits and vegetables'
+  },
+  {
+    id: 8,
+    name: 'Slotted Spoon',
+    price: 6.35,
+    description: 'Ideal for draining liquids from food'
   }
 ];
