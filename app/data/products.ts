@@ -56,5 +56,11 @@ export const products: Product[] = [
     name: 'Slotted Spoon',
     price: 6.35,
     description: 'Ideal for draining liquids from food'
+  },
+  {
+    id: 9,
+    name: 'Air Fryer',
+    price: 189.88,
+    description: 'Trendy appliance and functional'
   }
 ];
