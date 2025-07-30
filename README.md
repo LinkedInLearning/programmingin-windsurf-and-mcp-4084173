@@ -5,6 +5,8 @@ This is the repository for the LinkedIn Learning course `Programming in Windsurf
 
 ## Course Description
 
+Windsurf brings the power of Large Language Models and Model Context Protocol to your software development workflow. With Windsurf, you can expedite your everyday coding and debugging tasks; yielding complete solutions more quickly. In this course, software engineering leader Joseph LeBlanc teaches you how to configure Windsurf for your specific tools, frameworks, and preferences. Find out how to choose the best LLMs for your tasks, budget credit usage, and prompt effectively. Move beyond vibe coding and start harnessing Windsurf for your everyday software development projects!
+
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
@@ -24,25 +26,18 @@ To resolve this issue:
     Add changes to git using this command: git add .
 	Commit changes using this command: git commit -m "some message"
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
-
 ## Instructor
 
-Instructor name
+Joseph LeBlanc
 
-Instructor description
-
+Computer Programmer
                             
 
-Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/).
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/joseph-leblanc?u=104).
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQG0eDHsyOSqTA/learning-public-crop_675_1200/B4EZVdqqdwHUAY-/0/1741033220778?e=2147483647&v=beta&t=FxUDo6FA8W8CiFROwqfZKL_mzQhYx9loYLfjN-LNjgA
+[lil-course-url]: https://www.linkedin.com/learning/programming-in-windsurf-and-mcp
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D560DAQGGHL3_wD81mA/learning-public-crop_675_1200/B56ZhXSaYVG0Ac-/0/1753811101897?e=2147483647&v=beta&t=p1yMRwMoAuJGWBOcBFig02qn7Xb6nDRbRJWZotZC3ac
 
